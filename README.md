@@ -1,15 +1,24 @@
-# portfolio
+# Portfolio 
 
-A new Flutter application.
+A responsive portfolio website made with flutter 2.0 :fire: :fire: :fire:
 
-## Getting Started
+## Responsive 
 
-This project is a starting point for a Flutter application.
+Built resposive for all screen sizes.
 
-A few resources to get you started if this is your first Flutter project:
+## Contact Me
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Facebook](https://www.facebook.com/mowglie.pop/)
+- [E-Mail](https://mail.google.com/mail/?view=cm&fs=1&to=mohan.smk23@gmail.com&su=&body=)
+- [LinkedIn](https://www.linkedin.com/in/mohansmk23/)
+- [Medium](https://mohan-smk23.medium.com/)
+- [StackOverflow](https://stackoverflow.com/users/9882579/mohankumar)
+
+
+⭐ Dont forget to star this repository and hit follow  ⭐
+
+:handshake: Contributors welcome to add features 💙
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
