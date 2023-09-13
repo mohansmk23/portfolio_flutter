@@ -5,8 +5,6 @@ import 'package:portfolio/widgets/sticky_header.dart';
 import '../widget_barrel.dart';
 
 class Education extends StatelessWidget {
-  const Education({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return SliverStickyHeader.builder(

@@ -10,8 +10,8 @@ class BannerArrowDown extends StatefulWidget {
 
 class _BannerArrowDownState extends State<BannerArrowDown>
     with TickerProviderStateMixin {
-  AnimationController _controller;
-  Animation<Offset> _offsetAnimation;
+  AnimationController? _controller;
+  Animation<Offset>? _offsetAnimation;
 
   @override
   void initState() {
@@ -23,7 +23,7 @@ class _BannerArrowDownState extends State<BannerArrowDown>
       begin: Offset.zero,
       end: const Offset(0.0, 2.5),
     ).animate(CurvedAnimation(
-      parent: _controller,
+      parent: _controller!,
       curve: Curves.linear,
     ));
     super.initState();
@@ -44,9 +44,9 @@ class _BannerArrowDownState extends State<BannerArrowDown>
             ),
           ),
           SlideTransition(
-              position: _offsetAnimation,
+              position: _offsetAnimation!,
               child: Icon(
-                Ionicons.ios_arrow_round_down,
+                FontAwesomeIcons.arrowDownLong,
                 size: 28.0,
                 color: Theme.of(context).accentColor,
               )),

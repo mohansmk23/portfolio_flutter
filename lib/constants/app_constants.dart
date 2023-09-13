@@ -9,14 +9,14 @@ const Color BANNER_BG_COLOR = Color(0xFFECF0FF);
 const String BANNER_PERSON_NAME = 'MohanKumar S';
 const String TITLE_PERSON_NAME = 'MohanKumar';
 
-const String PORTFOLIO_IMG = 'assets/portfolio_img.jpg';
+const String PORTFOLIO_IMG = 'assets/portfolio_img2.jpg';
 const List<String> DESIGNATIONS = [
-  'Android Developer.',
   'Flutter Developer.',
+  'Android Developer.',
 ];
 
 const String ABOUT_ME_DESC =
-    'Passionately curious developer with 3+ years of extensive experience in building, integrating, testing and supporting cutting edge mobile applications ';
+    'Passionately curious developer with 5+ years of extensive experience in building, integrating, testing and supporting cutting edge mobile applications ';
 
 const String DOWNLOAD_CV_URL =
     'https://drive.google.com/uc?export=download&id=1aNLxPB5PW7fiKP-JWZJwVJTsex61MmWN';
@@ -57,6 +57,7 @@ const List<String> kSkillsAssets = [
 ];
 
 const List<String> kWorksAssets = [
+  'assets/ss15.png',
   'assets/ss1.png',
   'assets/ss2.png',
   'assets/ss3.png',
@@ -96,11 +97,17 @@ const List<ResumeModel> kEducation = [
 
 const List<ResumeModel> kExperience = [
   ResumeModel(
-      period: 'APR 2019 - Present',
+      period: 'OCT 2021 - Present',
+      title: 'Flutter  Developer',
+      place: 'Hinduja Tech Limited (Ashok Leyland)',
+      description:
+          'Worked as flutter developer on applications with vast number of users, building complex UIs'),
+  ResumeModel(
+      period: 'APR 2019 - OCT 2021',
       title: 'Android / Flutter  Developer',
       place: 'iStrides Technologies',
       description:
-          'Joined a android developer worked on wide range of applications which gave me opportunities in leaning new technologies. then worked as a Flutter developer which is a great experience i ever had.'),
+          'Joined a android developer worked on wide range of applications which gave me opportunities in learning new technologies. then worked as a Flutter developer which is a great experience i ever had.'),
   ResumeModel(
       period: 'JUL 2017 - MAR 2019',
       title: 'Android Developer',
@@ -110,6 +117,12 @@ const List<ResumeModel> kExperience = [
 ];
 
 const List<ResumeModel> kCertifications = [
+  ResumeModel(
+      period: '2022',
+      title: 'GEM of the company award',
+      place: 'Hinduja Tech Limited',
+      description:
+          'Received this award for achieving dynamic multilingual support in AL Care application'),
   ResumeModel(
       period: '2019',
       title: 'Flutter Development Bootcamp with Dart',
@@ -137,35 +150,35 @@ List<ContactMeModel> kContactMe = [
   ContactMeModel(
       title: 'Facebook',
       userName: 'MohanKumar',
-      icon: FontAwesome.facebook_f,
+      icon: FontAwesomeIcons.facebookF,
       onClick: () async {
         await launch('https://www.facebook.com/mowglie.pop/');
       }),
   ContactMeModel(
       title: 'Github',
       userName: 'mohansmk23',
-      icon: FontAwesome.github,
+      icon: FontAwesomeIcons.github,
       onClick: () async {
         await launch('https://github.com/mohansmk23');
       }),
   ContactMeModel(
       title: 'LinkedIn',
       userName: 'MohanKumar S',
-      icon: FontAwesome.linkedin,
+      icon: FontAwesomeIcons.linkedin,
       onClick: () async {
         await launch('https://www.linkedin.com/in/mohankumar-s-b23057182/');
       }),
   ContactMeModel(
       title: 'Medium',
       userName: 'mohan-smk23',
-      icon: FontAwesome.medium,
+      icon: FontAwesomeIcons.medium,
       onClick: () async {
         await launch('https://mohan-smk23.medium.com/');
       }),
   ContactMeModel(
       title: 'Stack Overflow',
       userName: 'Mohankumar',
-      icon: FontAwesome.medium,
+      icon: FontAwesomeIcons.stackOverflow,
       onClick: () async {
         await launch('https://stackoverflow.com/users/9882579/mohankumar');
       }),
@@ -184,16 +197,24 @@ class ResumeModel {
   final String place;
   final String description;
 
-  const ResumeModel({this.period, this.title, this.place, this.description});
+  const ResumeModel(
+      {required this.period,
+      required this.title,
+      required this.place,
+      required this.description});
 }
 
 class ContactMeModel {
   final String title;
   final String userName;
   final IconData icon;
-  final Function onClick;
+  final void Function()? onClick;
 
-  const ContactMeModel({this.title, this.userName, this.icon, this.onClick});
+  const ContactMeModel(
+      {required this.title,
+      required this.userName,
+      required this.icon,
+      required this.onClick});
 }
 
 class SkillsModel {

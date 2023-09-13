@@ -6,7 +6,7 @@ class ResumeItem extends StatelessWidget {
   final ResumeModel resume;
   final IconData icon;
 
-  const ResumeItem({this.resume, this.icon});
+  const ResumeItem({required this.resume, required this.icon});
   @override
   Widget build(BuildContext context) {
     return Row(

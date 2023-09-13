@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/widget_barrel.dart';
 
 class Footer extends StatelessWidget {
-  const Footer({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -46,16 +44,12 @@ class Footer extends StatelessWidget {
 }
 
 class About extends StatelessWidget {
-  const About({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-
         SizedBox(height: 48),
-
       ],
     );
   }

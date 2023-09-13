@@ -38,7 +38,7 @@ class Certifications extends StatelessWidget {
                         SizedBox(
                           height: 24.0,
                         ),
-                        Text('Certifications',
+                        Text('Awards & Certifications',
                             style: TextStyle(
                                 color: Theme.of(context).accentColor,
                                 fontSize: 30,

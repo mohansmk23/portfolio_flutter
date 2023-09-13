@@ -1,6 +1,5 @@
 export 'package:animated_text_kit/animated_text_kit.dart';
 export 'package:flutter/cupertino.dart';
-export 'package:flutter_icons/flutter_icons.dart';
 export 'package:portfolio/app/theme.dart';
 export 'package:portfolio/widgets/about_me.dart';
 export 'package:portfolio/widgets/banner.dart';
@@ -9,6 +8,7 @@ export 'package:portfolio/widgets/contact_me_card.dart';
 export 'package:portfolio/widgets/footer.dart';
 export 'package:portfolio/widgets/projects.dart';
 export 'package:portfolio/widgets/skills.dart';
+export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 export 'package:portfolio/widgets/skills_card.dart';
 export 'package:portfolio/widgets/title_name.dart';
 export 'package:scroll_navigation/misc/navigation_helpers.dart';

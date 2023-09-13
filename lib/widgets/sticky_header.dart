@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StickyHeader extends StatelessWidget {
-  final String headerName;
+  final String? headerName;
   final bool isPinned;
 
   const StickyHeader({this.headerName, this.isPinned = true});
@@ -26,7 +26,7 @@ class StickyHeader extends StatelessWidget {
                 width: 12.0,
               ),
             ),
-            Text(headerName,
+            Text(headerName ?? '',
                 style: TextStyle(
                     color: isPinned
                         ? Theme.of(context).primaryColor

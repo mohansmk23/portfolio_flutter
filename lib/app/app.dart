@@ -32,7 +32,7 @@ class _PortfolioAppState extends State<PortfolioApp> {
         return themeChangeProvider;
       },
       child: Consumer<DarkThemeProvider>(
-          builder: (BuildContext context, value, Widget child) {
+          builder: (BuildContext context, value, Widget? child) {
         return MaterialApp(
           title: TITLE_PERSON_NAME,
           debugShowCheckedModeBanner: false,

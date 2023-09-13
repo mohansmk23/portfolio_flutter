@@ -5,18 +5,18 @@ import '../widget_barrel.dart';
 class ContactMeCard extends StatelessWidget {
   final ContactMeModel contactMeModel;
 
-  ContactMeCard({this.contactMeModel});
+  ContactMeCard({required this.contactMeModel});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal:12.0),
+      padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: InkWell(
         onTap: contactMeModel.onClick,
         child: Container(
           height: 200.0,
           child: AspectRatio(
-            aspectRatio: 1/1,
+            aspectRatio: 1 / 1,
             child: Card(
               elevation: 8.0,
               child: Padding(

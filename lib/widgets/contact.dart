@@ -3,8 +3,6 @@ import 'package:portfolio/widget_barrel.dart';
 import 'package:portfolio/widgets/contact_me_card.dart';
 
 class Contact extends StatelessWidget {
-  const Contact({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Column(
