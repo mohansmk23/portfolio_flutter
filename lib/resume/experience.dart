@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sticky_header/flutter_sticky_header.dart';
 import 'package:portfolio/widgets/sticky_header.dart';
-
 import '../widget_barrel.dart';
 
 class Experience extends StatelessWidget {

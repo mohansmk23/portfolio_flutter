@@ -15,3 +15,4 @@ export 'package:scroll_navigation/misc/navigation_helpers.dart';
 export 'package:scroll_navigation/navigation/scroll_navigation.dart';
 export 'constants/app_constants.dart';
 export 'widgets/resume_item.dart';
+export 'package:photo_view/photo_view.dart';

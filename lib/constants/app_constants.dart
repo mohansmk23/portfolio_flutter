@@ -57,7 +57,13 @@ const List<String> kSkillsAssets = [
 ];
 
 const List<String> kWorksAssets = [
+  'assets/ss21.png',
   'assets/ss15.png',
+  'assets/ss20.png',
+  'assets/ss19.png',
+  'assets/ss18.png',
+  'assets/ss17.png',
+  'assets/ss16.png',
   'assets/ss1.png',
   'assets/ss2.png',
   'assets/ss3.png',

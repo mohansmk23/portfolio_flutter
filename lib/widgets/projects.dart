@@ -46,7 +46,65 @@ class Projects extends StatelessWidget {
                       height: 500.0,
                       child: AspectRatio(
                           aspectRatio: 9 / 16,
-                          child: Image.asset(kWorksAssets[index]))),
+                          child: InkWell(
+                              onTap: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (_) => Material(
+                                    type: MaterialType.transparency,
+                                    child: Center(
+                                      // Aligns the container to center
+                                      child: SizedBox.expand(
+                                        child: Stack(
+                                          alignment: Alignment.center,
+                                          children: [
+                                            Container(
+                                              color: Colors.transparent,
+                                              padding: EdgeInsets.all(0.0),
+                                              child: PhotoView(
+                                                backgroundDecoration:
+                                                    BoxDecoration(
+                                                        color:
+                                                            Colors.transparent),
+                                                tightMode: true,
+                                                imageProvider: AssetImage(
+                                                    kWorksAssets[index]),
+                                              ),
+                                            ),
+                                            Positioned(
+                                                top: (MediaQuery.of(context)
+                                                            .size
+                                                            .height /
+                                                        2) -
+                                                    (MediaQuery.of(context)
+                                                            .size
+                                                            .width /
+                                                        2) -
+                                                    36,
+                                                right: 1.0,
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                      color: Colors.grey
+                                                          .withOpacity(0.9),
+                                                      shape: BoxShape.circle),
+                                                  child: IconButton(
+                                                    icon: Icon(
+                                                      Icons.close,
+                                                      color: Colors.white,
+                                                    ),
+                                                    onPressed: () {
+                                                      Navigator.pop(context);
+                                                    },
+                                                  ),
+                                                )),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                );
+                              },
+                              child: Image.asset(kWorksAssets[index])))),
                 );
               },
             ),

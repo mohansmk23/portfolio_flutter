@@ -152,6 +152,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "photo_view",
+      "rootUri": "file:///C:/Users/18241/AppData/Local/Pub/Cache/hosted/pub.dev/photo_view-0.14.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "platform",
       "rootUri": "file:///C:/Users/18241/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.0.0",
       "packageUri": "lib/",
@@ -332,7 +338,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-09-13T16:38:40.507541Z",
+  "generated": "2023-09-14T02:45:17.093670Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
