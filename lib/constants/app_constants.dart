@@ -19,7 +19,7 @@ const String ABOUT_ME_DESC =
     'Passionately curious developer with 5+ years of extensive experience in building, integrating, testing and supporting cutting edge mobile applications ';
 
 const String DOWNLOAD_CV_URL =
-    'https://drive.google.com/uc?export=download&id=1aNLxPB5PW7fiKP-JWZJwVJTsex61MmWN';
+    'https://drive.google.com/uc?export=download&id=1TGts93w_eDGoEHwLQmImq_HMLjvs6cq3';
 
 const List<String> ABOUT_ME_LABELS = [
   'Name:',
