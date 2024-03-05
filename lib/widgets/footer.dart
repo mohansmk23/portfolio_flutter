@@ -15,7 +15,7 @@ class Footer extends StatelessWidget {
             ],
             durations: [8000],
             heightPercentages: [0.25],
-            blur: MaskFilter.blur(BlurStyle.solid, 10),
+           
           ),
           waveAmplitude: 0,
           size: Size(double.infinity, 100.0),
