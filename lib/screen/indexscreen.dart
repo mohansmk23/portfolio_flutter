@@ -15,6 +15,7 @@ class _IndexScreenState extends State<IndexScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: PrimaryScrollController(
         controller: myScrollWorks,
         child: Scrollbar(

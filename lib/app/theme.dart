@@ -4,7 +4,11 @@ class AppTheme {
   static ThemeData light() {
     return ThemeData(
         primaryColor: _themeblue,
-        accentColor: _accentColor,
+        brightness: Brightness.light,
+         colorScheme: ColorScheme.fromSwatch().copyWith(
+          brightness: Brightness.light,
+    secondary: _accentColor, // Your accent color
+  ),
         fontFamily: 'poppins');
   }
 
@@ -13,7 +17,11 @@ class AppTheme {
         primaryColor: Colors.black,
         disabledColor: Colors.grey,
         brightness: Brightness.dark,
-        accentColor: _accentColor,
+        
+         colorScheme: ColorScheme.fromSwatch().copyWith(
+            brightness: Brightness.dark,
+    secondary: _accentColor, // Your accent color
+  ),
         scaffoldBackgroundColor: Color(0xff0A0C18),
         textTheme: TextTheme(),
         outlinedButtonTheme: OutlinedButtonThemeData(

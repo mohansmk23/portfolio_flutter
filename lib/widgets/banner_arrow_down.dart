@@ -48,7 +48,7 @@ class _BannerArrowDownState extends State<BannerArrowDown>
               child: Icon(
                 FontAwesomeIcons.arrowDownLong,
                 size: 28.0,
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).colorScheme.secondary,
               )),
         ],
       ),

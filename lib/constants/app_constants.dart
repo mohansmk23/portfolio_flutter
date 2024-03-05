@@ -9,17 +9,16 @@ const Color BANNER_BG_COLOR = Color(0xFFECF0FF);
 const String BANNER_PERSON_NAME = 'MohanKumar S';
 const String TITLE_PERSON_NAME = 'MohanKumar';
 
-const String PORTFOLIO_IMG = 'assets/portfolio_img2.jpg';
+const String PORTFOLIO_IMG = 'assets/portfolio_img3.jpg';
 const List<String> DESIGNATIONS = [
   'Flutter Developer.',
-  'Android Developer.',
 ];
 
 const String ABOUT_ME_DESC =
     'Passionately curious developer with 5+ years of extensive experience in building, integrating, testing and supporting cutting edge mobile applications ';
 
 const String DOWNLOAD_CV_URL =
-    'https://drive.google.com/uc?export=download&id=1TGts93w_eDGoEHwLQmImq_HMLjvs6cq3';
+    'https://drive.google.com/uc?export=download&id=1jM0pAFJ_qKObfChD0Bf0MXR-lvgqOQSc';
 
 const List<String> ABOUT_ME_LABELS = [
   'Name:',
@@ -191,9 +190,9 @@ List<ContactMeModel> kContactMe = [
 ];
 
 List<SkillsModel> kSkills = [
-  SkillsModel('Native Android', 90),
   SkillsModel('Flutter', 90),
-  SkillsModel('Material design', 90),
+  SkillsModel('BLoC', 90),
+  SkillsModel('GetX', 90),
   SkillsModel('Firebase', 75),
 ];
 

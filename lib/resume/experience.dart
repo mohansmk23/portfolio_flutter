@@ -39,7 +39,7 @@ class Experience extends StatelessWidget {
                         ),
                         Text('Experience',
                             style: TextStyle(
-                                color: Theme.of(context).accentColor,
+                                color: Theme.of(context).colorScheme.secondary,
                                 fontSize: 30,
                                 fontWeight: FontWeight.w800)),
                         SizedBox(

@@ -14,10 +14,12 @@ class ContactMeCard extends StatelessWidget {
       child: InkWell(
         onTap: contactMeModel.onClick,
         child: Container(
+          color: Colors.white,
           height: 200.0,
           child: AspectRatio(
             aspectRatio: 1 / 1,
             child: Card(
+              color: Colors.white,
               elevation: 8.0,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
@@ -26,7 +28,7 @@ class ContactMeCard extends StatelessWidget {
                   children: [
                     Spacer(),
                     CircleAvatar(
-                      backgroundColor: Theme.of(context).accentColor,
+                      backgroundColor: Theme.of(context).colorScheme.secondary,
                       radius: 50,
                       child: Icon(
                         contactMeModel.icon,
@@ -46,7 +48,7 @@ class ContactMeCard extends StatelessWidget {
                       child: Text('${contactMeModel.userName}',
                           maxLines: 1,
                           style: TextStyle(
-                              color: Theme.of(context).accentColor,
+                              color: Theme.of(context).colorScheme.secondary,
                               fontSize: 16.0,
                               fontWeight: FontWeight.w400)),
                     ),

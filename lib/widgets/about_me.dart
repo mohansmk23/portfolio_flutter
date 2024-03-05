@@ -9,6 +9,7 @@ class AboutMe extends StatelessWidget {
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
         return Container(
+          color: Colors.white,
           padding: EdgeInsets.only(
               left: MediaQuery.of(context).size.width * 0.1,
               right: MediaQuery.of(context).size.width * 0.1),
@@ -81,7 +82,8 @@ class AboutMe extends StatelessWidget {
                             Text(
                               PROJECT_COMPLETE_COUNT,
                               style: TextStyle(
-                                  color: Theme.of(context).accentColor,
+                                  color:
+                                      Theme.of(context).colorScheme.secondary,
                                   fontSize: 20,
                                   fontWeight: FontWeight.w600),
                             ),
@@ -101,8 +103,7 @@ class AboutMe extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                            primary:
-                                Theme.of(context).accentColor, // background
+                            primary: Theme.of(context).colorScheme.secondary,
                             onPrimary: Colors.white, // foreground
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(100.0))),

@@ -7,7 +7,7 @@ class TitleName extends StatelessWidget {
     return Row(
       children: [
         CircleAvatar(
-          backgroundColor: Theme.of(context).accentColor,
+          backgroundColor: Theme.of(context).colorScheme.secondary,
           child: Align(
             alignment: Alignment.centerRight,
             child: Padding(

@@ -25,7 +25,7 @@ class BannerBackground extends StatelessWidget {
                 Text(
                   'HEY! I AM',
                   style: TextStyle(
-                      color: Theme.of(context).accentColor,
+                      color: Theme.of(context).colorScheme.secondary,
                       fontSize: 18.0,
                       fontWeight: FontWeight.w900,
                       letterSpacing: 8.0),
@@ -98,7 +98,7 @@ class BannerBackground extends StatelessWidget {
           speed: Duration(milliseconds: 100),
           textStyle: TextStyle(
             fontSize: 32.0,
-            color: Theme.of(ctx).accentColor,
+            color: Theme.of(ctx).colorScheme.secondary,
             decoration: TextDecoration.underline,
             fontWeight: FontWeight.w800,
           ),

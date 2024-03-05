@@ -13,7 +13,7 @@ class ResumeItem extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         CircleAvatar(
-          backgroundColor: Theme.of(context).accentColor,
+          backgroundColor: Theme.of(context).colorScheme.secondary,
           radius: 25,
           child: Icon(
             icon,
@@ -31,7 +31,7 @@ class ResumeItem extends StatelessWidget {
                 '${resume.period}',
                 style: TextStyle(
                     fontWeight: FontWeight.w700,
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).colorScheme.secondary,
                     fontSize: 16.0),
               ),
               SizedBox(
